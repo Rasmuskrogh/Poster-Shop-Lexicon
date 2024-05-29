@@ -1,0 +1,57 @@
+header {
+  background-color: #3de07e;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  aspect-ratio: 4/2;
+  justify-content: space-between;
+}
+
+.nav-image {
+  align-self: flex-start;
+}
+
+header h1 {
+  align-self: center;
+  font-size: 10vw;
+}
+
+.ninjahead {
+  align-self: center;
+  width: 20%;
+}
+
+.main-wrapper {
+  padding: 5% 10%;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem 0.5rem;
+  font-size: 2rem;
+}
+
+.card button {
+  background-color: red;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 0.7rem;
+  color: white;
+  margin: 0 0 0.5rem 0.5rem;
+}
