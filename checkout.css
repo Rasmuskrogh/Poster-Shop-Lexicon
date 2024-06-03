@@ -19,6 +19,14 @@ header h1 {
 .ninjahead {
   align-self: center;
   width: 20%;
+  margin: -1px;
+}
+
+.main-and-footer-wrapping-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .main-wrapper {
