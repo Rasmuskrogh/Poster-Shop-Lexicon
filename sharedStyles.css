@@ -30,8 +30,8 @@ footer > section {
   width: 100%;
   color: white;
   display: flex;
-  justify-content: space-between;
-  padding: 3% 25% 3% 15%;
+  justify-content: space-evenly;
+  padding: 3%;
 }
 
 .footer-section h3 {
@@ -57,7 +57,7 @@ footer ul li {
 
 @media screen and (max-width: 825px) {
   footer > section {
-    justify-content: space-around;
+    /* justify-content: space-around; */
     padding: 3% 0;
   }
 }
